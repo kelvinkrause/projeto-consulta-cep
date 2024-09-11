@@ -1,5 +1,4 @@
-CREATE TABLE endereco (cep TEXT PRIMARY KEY UNIQUE NOT NULL
-                       endereco TEXT NOT NULL,
+CREATE TABLE endereco (cep TEXT PRIMARY KEY UNIQUE NOT NULL,
                        logradouro TEXT NOT NULL,
                        complemento TEXT NOT NULL,
                        bairro TEXT NOT NULL,
