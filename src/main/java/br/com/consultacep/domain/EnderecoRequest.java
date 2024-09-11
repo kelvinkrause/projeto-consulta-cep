@@ -1,6 +1,6 @@
 package br.com.consultacep.domain;
 
-public record CepRequest(
+public record EnderecoRequest(
         String cep,
         String logradouro,
         String complemento,

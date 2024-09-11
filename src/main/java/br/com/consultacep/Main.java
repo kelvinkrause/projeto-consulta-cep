@@ -1,8 +1,8 @@
 package br.com.consultacep;
 
 import br.com.consultacep.controller.ConsultaCep;
-import br.com.consultacep.controller.GravaCep;
-import br.com.consultacep.domain.Cep;
+import br.com.consultacep.controller.GravaEndereco;
+import br.com.consultacep.domain.Endereco;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -13,9 +13,14 @@ public class Main {
         System.out.println("Informe um CEP:");
         String cep = scan.nextLine();
 
-        Cep classeCep = new Cep(new ConsultaCep().buscaEndereco(cep));
+        try {
+            Endereco classeEndereco = new Endereco(new ConsultaCep().buscaEndereco(cep));
+            new GravaEndereco().gravaCep(classeEndereco);
+        } catch (RuntimeException e){
+            System.out.println(e.getMessage());
+            System.out.println("Finalizando a aplicação.");
+        }
 
-        new GravaCep().gravaCep(classeCep);
 
     }
 }

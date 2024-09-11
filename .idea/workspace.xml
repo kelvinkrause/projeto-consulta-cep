@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d94c786b-39a5-4a1d-957d-759b796759a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/controller/ConsultaCep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/controller/GravaCep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/domain/Cep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/domain/CepRequest.java" afterDir="false" />
+    <list default="true" id="d94c786b-39a5-4a1d-957d-759b796759a3" name="Changes" comment="Criado Programa que informa um CEP e ele busca na API viacep e grava o retorno em uma tabela (cep) no banco de dados PostgreSQL">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/consultacep/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/consultacep/controller/ConsultaCep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/controller/ConsultaCep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/consultacep/controller/GravaCep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/controller/GravaEndereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/consultacep/domain/Cep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/domain/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/consultacep/domain/CepRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/consultacep/domain/EnderecoRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +82,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726088301489</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criado Programa que informa um CEP e ele busca na API viacep e grava o retorno em uma tabela (cep) no banco de dados PostgreSQL">
+      <option name="closed" value="true" />
+      <created>1726091897387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726091897387</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criado Programa que informa um CEP e ele busca na API viacep e grava o retorno em uma tabela (cep) no banco de dados PostgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado Programa que informa um CEP e ele busca na API viacep e grava o retorno em uma tabela (cep) no banco de dados PostgreSQL" />
   </component>
 </project>
